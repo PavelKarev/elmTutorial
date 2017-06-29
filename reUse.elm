@@ -12,7 +12,7 @@ printThing : thing -> Html msg
 printThing thing = 
   ul [] [text  <| toString thing]
 
-fruits = 
+fruits =
   [{ name = "Orange" }, { name = "Banana" }]
 
 

@@ -8,7 +8,6 @@ import Html.Events exposing (..)
 model =
   { showFace = False }
 
-
 type Msg =
   ShowFace
 
